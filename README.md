@@ -29,12 +29,13 @@ Este proyecto fue diseñado como una API RESTful construida en **ASP.NET Core 8*
 git clone https://github.com/javierserra/Desafio_Kinetic.git
 cd Desafio_Kinetic
 
-
 # Ejecutar
-docker compose -f 'Desafio_Kinetic\docker-compose.yml' up -d --build 
+docker compose -f docker-compose.yml up -d --build 
 ```
 
 El API estará disponible en: `http://localhost:8080`
+La documentación Swagger UI estará disponible en: `http://localhost:8080/swagger`
+El monitoreo del servicio Hangfire estará disponible en: `http://localhost:8080/hangfire`
 
 ### 🧪 Prueba del procesamiento
 
