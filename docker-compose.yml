@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  webapi:
+    build: .   
+    container_name: desafio
+    ports:
+      - "8080:80"
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    restart: unless-stopped
+  

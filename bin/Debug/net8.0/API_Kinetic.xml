@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API_Kinetic</name>
+    </assembly>
+    <members>
+        <member name="M:Desafio_Kinetic.Controllers.JobController.StartJobs(Desafio_Kinetic.Controllers.StartProcessRequest)">
+            <summary>
+            Inicia el procesamiento de carpetas dentro de un path.
+            </summary>
+            <param name="request">Ruta raíz con subcarpetas a procesar</param>
+            <returns>Mensaje de confirmación y cantidad de jobs lanzados</returns>
+        </member>
+        <member name="M:Desafio_Kinetic.Controllers.JobController.StopProcess(System.String)">
+            <summary>
+            Marca un proceso como detenido.
+            </summary>
+        </member>
+        <member name="M:Desafio_Kinetic.Controllers.JobController.GetState(System.String)">
+            <summary>
+            Obtiene el estado de un proceso.
+            </summary>
+        </member>
+        <member name="M:Desafio_Kinetic.Controllers.JobController.GetAllStates">
+            <summary>
+            Lista el estado de todos los procesos.
+            </summary>
+        </member>
+        <member name="M:Desafio_Kinetic.Controllers.JobController.GetResult(System.String)">
+            <summary>
+            Obtiene el resultado de un proceso.
+            </summary>
+        </member>
+        <member name="T:Desafio_Kinetic.Controllers.StartProcessRequest">
+            <summary>
+            Solicitud para iniciar procesos por carpeta.
+            </summary>
+        </member>
+        <member name="P:Desafio_Kinetic.Controllers.StartProcessRequest.RootPath">
+            <example>/app/input</example>
+        </member>
+    </members>
+</doc>

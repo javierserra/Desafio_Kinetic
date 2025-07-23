@@ -1,0 +1,40 @@
+{
+  "ProcessId": "f944583e-8f45-48bb-a0c9-ff884df954ae",
+  "Status": "COMPLETED",
+  "Progress": {
+    "TotalFiles": 10,
+    "ProcessedFiles": 10,
+    "Percentage": 100
+  },
+  "StartedAt": "2025-07-22T00:25:38.7479367Z",
+  "EstimatedCompletion": "2025-07-22T00:35:38.7479725Z",
+  "Results": {
+    "TotalWords": 5165,
+    "TotalLines": 290,
+    "Resumen": null,
+    "MostFrequentWords": [
+      "optio",
+      "quidem",
+      "voluptas",
+      "sequi",
+      "eius",
+      "nostrum",
+      "explicabo",
+      "occaecati",
+      "magni",
+      "ab"
+    ],
+    "FilesProcessed": [
+      "documento_1.txt",
+      "documento_10.txt",
+      "documento_2.txt",
+      "documento_3.txt",
+      "documento_4.txt",
+      "documento_5.txt",
+      "documento_6.txt",
+      "documento_7.txt",
+      "documento_8.txt",
+      "documento_9.txt"
+    ]
+  }
+}

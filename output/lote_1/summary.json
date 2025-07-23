@@ -1,0 +1,40 @@
+{
+  "ProcessId": "3462f2d4-f356-4112-9728-6d277ad191a9",
+  "Status": "COMPLETED",
+  "Progress": {
+    "TotalFiles": 10,
+    "ProcessedFiles": 10,
+    "Percentage": 100
+  },
+  "StartedAt": "2025-07-22T00:25:38.747949Z",
+  "EstimatedCompletion": "2025-07-22T00:35:38.7479569Z",
+  "Results": {
+    "TotalWords": 5153,
+    "TotalLines": 278,
+    "Resumen": null,
+    "MostFrequentWords": [
+      "laudantium",
+      "temporibus",
+      "architecto",
+      "aut",
+      "in",
+      "nihil",
+      "velit",
+      "tempora",
+      "recusandae",
+      "eaque"
+    ],
+    "FilesProcessed": [
+      "documento_1.txt",
+      "documento_10.txt",
+      "documento_2.txt",
+      "documento_3.txt",
+      "documento_4.txt",
+      "documento_5.txt",
+      "documento_6.txt",
+      "documento_7.txt",
+      "documento_8.txt",
+      "documento_9.txt"
+    ]
+  }
+}
