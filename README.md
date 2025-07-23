@@ -33,9 +33,10 @@ cd Desafio_Kinetic
 docker compose -f docker-compose.yml up -d --build 
 ```
 
-El API estará disponible en: `http://localhost:8080`
-La documentación Swagger UI estará disponible en: `http://localhost:8080/swagger`
-El monitoreo del servicio Hangfire estará disponible en: `http://localhost:8080/hangfire`
+
+-  El API estará disponible en: `http://localhost:8080`
+-  La documentación Swagger UI estará disponible en: `http://localhost:8080/swagger`
+-  El monitoreo del servicio Hangfire estará disponible en: `http://localhost:8080/hangfire`
 
 ### 🧪 Prueba del procesamiento
 
